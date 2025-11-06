@@ -57,3 +57,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Set Up
+
+To set up the project, you have to launch ```php artisan serve``` <br>
+Then add DB information to .env and run ```php artisan migrate``` - this will create tables in database <br>
+Then run ```npm install``` and ```npm run dev``` - to add npm packages and run Vite (adds TailwindCSS)
+
